@@ -10,5 +10,9 @@
     <hr>
     <h3>process.env.PORT = <%= port %></h3>
     <h3>process.env.DB_URI = <%= db_uri %></h3>
+    <hr>
+    <% todos.forEach(element => { %>
+      <h4><%= element.title %></h4>
+    <% }) %>
   </body>
 </html>

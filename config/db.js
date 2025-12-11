@@ -1,6 +1,7 @@
 // config db for mongo atlas
 
 const mongoose = require('mongoose');
+//require('dotenv').config();
 
 const connectDB = async () => {
     if (!process.env.DB_URI) {
