@@ -7,5 +7,9 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <hr>
+    <% todos.forEach(element => { %>
+      <h3><%= element.title %></h3>
+    <% }) %>
   </body>
 </html>
