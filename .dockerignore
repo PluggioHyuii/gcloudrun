@@ -1,0 +1,15 @@
+# express-generator .dockerignore for google cloud run
+
+node_modules
+npm-debug.log
+.DS_Store
+.git
+.gitignore
+.vscode
+dockerignore
+Dockerfile
+*.md
+
+
+
+

@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const mongoURI = process.env.MONGO_URI || 'mongodb+srv://changtongstartup_db_user:aeineenee@cluster001.xebeowe.mongodb.net/gcloudrun ';
+const mongoURI = process.env.MONGO_URI;
 
 const connectDB = async () => {
     if (!mongoURI) {
